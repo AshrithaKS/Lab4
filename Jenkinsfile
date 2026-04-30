@@ -10,7 +10,7 @@ pipeline {
 
         stage('Checkout') {
             steps {
-                git branch: 'main', url:'https://github.com/AshrithaKS/Lab4.git',
+                git branch: 'master', url:'https://github.com/AshrithaKS/Lab4.git',
                 credentialsId: 'github-token'
             }
         }
